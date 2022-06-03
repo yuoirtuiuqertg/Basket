@@ -20,6 +20,9 @@
 
 
 </#list>
+        <form action="/basket/delete" method="get" >
+            <p>  <input type="submit" value="Очистить корзину "/></p>
+        </form>
 <hr>
         <h2>Cумма Заказа : ${price} руб.</h2>
         <h2>Количество товаров в  Заказе : ${quantity} штук</h2>
